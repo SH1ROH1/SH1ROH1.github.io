@@ -21,24 +21,31 @@
         <span>SH1ROH1</span>
       </a>
       <nav class="site-nav" aria-label="Основна навігація">
-        <a href="#systems">Системи</a>
-        <a href="#now">Зараз</a>
-        <a href="#about">Про мене</a>
+        <a href="#systems" data-i18n="nav.systems">Системи</a>
+        <a href="#now" data-i18n="nav.now">Зараз</a>
+        <a href="#about" data-i18n="nav.about">Про мене</a>
       </nav>
-      <a class="header-link" href="https://github.com/SH1ROH1" target="_blank" rel="noreferrer">
-        GitHub <span aria-hidden="true">↗</span>
-      </a>
+      <div class="header-actions">
+        <div class="language-switcher" role="group" aria-label="Мова сайту">
+          <button class="language-button is-active" data-language="uk">UA</button>
+          <button class="language-button" data-language="en">EN</button>
+          <button class="language-button" data-language="ru">RU</button>
+        </div>
+        <a class="header-link" href="https://github.com/SH1ROH1" target="_blank" rel="noreferrer">
+          GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </div>
     </header>
 
     <main id="top">
       <section class="hero shell">
         <div class="hero-copy reveal">
-          <p class="eyebrow"><span class="status-dot"></span> розробляю, тестую, вдосконалюю</p>
-          <h1>Системи, які<br /><em>працюють.</em></h1>
-          <p class="hero-text">Я Arkadii — студент і C++ розробник, який створює модульні інструменти для Unreal Engine, ігор та повсякденних задач.</p>
+          <p class="eyebrow"><span class="status-dot"></span> <span data-i18n="hero.eyebrow">розробляю, тестую, вдосконалюю</span></p>
+          <h1 data-i18n-html="hero.title">Системи, які<br /><em>працюють.</em></h1>
+          <p class="hero-text" data-i18n="hero.description">Я Arkadii — студент і C++ розробник, який створює модульні інструменти для Unreal Engine, ігор та повсякденних задач.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#systems">Переглянути проєкти <span>↓</span></a>
-            <a class="button button-ghost" href="https://github.com/SH1ROH1" target="_blank" rel="noreferrer">Мій GitHub <span>↗</span></a>
+            <a class="button button-primary" href="#systems"><span data-i18n="hero.projects">Переглянути проєкти</span> <span>↓</span></a>
+            <a class="button button-ghost" href="https://github.com/SH1ROH1" target="_blank" rel="noreferrer"><span data-i18n="hero.github">Мій GitHub</span> <span>↗</span></a>
           </div>
         </div>
         <div class="hero-art reveal" aria-hidden="true">
@@ -58,26 +65,26 @@
       </section>
 
       <section class="stats shell reveal" aria-label="Статистика профілю">
-        <div><strong>09</strong><span>публічних<br />репозиторіїв</span></div>
-        <div><strong>02</strong><span>готові системи<br />для UE5</span></div>
-        <div><strong>03</strong><span>мови та<br />інструменти</span></div>
-        <div class="stats-note">від ідеї<br />до робочого коду <span>↘</span></div>
+        <div><strong>09</strong><span data-i18n-html="stats.repos">публічних<br />репозиторіїв</span></div>
+        <div><strong>02</strong><span data-i18n-html="stats.systems">готові системи<br />для UE5</span></div>
+        <div><strong>03</strong><span data-i18n-html="stats.tools">мови та<br />інструменти</span></div>
+        <div class="stats-note" data-i18n-html="stats.note">від ідеї<br />до робочого коду <span>↘</span></div>
       </section>
 
       <section class="systems shell" id="systems">
         <div class="section-heading reveal">
           <div>
-            <p class="eyebrow">01 / вибрані роботи</p>
-            <h2>Мої системи</h2>
+            <p class="eyebrow" data-i18n="systems.eyebrow">01 / вибрані роботи</p>
+            <h2 data-i18n="systems.title">Мої системи</h2>
           </div>
-          <p>Невеликі, зрозумілі та розширювані рішення, зібрані в процесі навчання і створення ігор.</p>
+          <p data-i18n="systems.description">Невеликі, зрозумілі та розширювані рішення, зібрані в процесі навчання і створення ігор.</p>
         </div>
         <div class="filters reveal" role="group" aria-label="Фільтр проєктів">
-          <button class="filter is-active" data-filter="all">Усі <span>07</span></button>
-          <button class="filter" data-filter="unreal">Unreal Engine <span>02</span></button>
-          <button class="filter" data-filter="tools">Інструменти <span>02</span></button>
-          <button class="filter" data-filter="games">Ігри <span>02</span></button>
-          <button class="filter" data-filter="study">Навчання <span>01</span></button>
+          <button class="filter is-active" data-filter="all"><span data-i18n="filters.all">Усі</span> <span>07</span></button>
+          <button class="filter" data-filter="unreal"><span data-i18n="filters.unreal">Unreal Engine</span> <span>02</span></button>
+          <button class="filter" data-filter="tools"><span data-i18n="filters.tools">Інструменти</span> <span>02</span></button>
+          <button class="filter" data-filter="games"><span data-i18n="filters.games">Ігри</span> <span>02</span></button>
+          <button class="filter" data-filter="study"><span data-i18n="filters.study">Навчання</span> <span>01</span></button>
         </div>
         <div class="project-grid" id="project-grid"></div>
       </section>
@@ -85,63 +92,63 @@
       <section class="now shell" id="now">
         <div class="section-heading reveal">
           <div>
-            <p class="eyebrow">02 / за лаштунками</p>
-            <h2>Що далі?</h2>
+            <p class="eyebrow" data-i18n="now.eyebrow">02 / за лаштунками</p>
+            <h2 data-i18n="now.title">Що далі?</h2>
           </div>
-          <p>Не все, над чим я працюю, вже можна показати. Але напрямок видно.</p>
+          <p data-i18n="now.description">Не все, над чим я працюю, вже можна показати. Але напрямок видно.</p>
         </div>
         <div class="now-grid">
           <div class="private-projects reveal">
-            <div class="subheading"><span>Приватні проєкти</span><span class="private-label">скоро буде більше</span></div>
+            <div class="subheading"><span data-i18n="private.title">Приватні проєкти</span><span class="private-label" data-i18n="private.more">скоро буде більше</span></div>
             <div class="private-item">
               <span class="private-index">01</span>
-              <div><h3>Private Gameplay System</h3><p>Закритий прототип системи для гри. Деталі та демо з’являться після готовності.</p></div>
+              <div><h3 data-i18n="private.one.title">Private Gameplay System</h3><p data-i18n="private.one.description">Закритий прототип системи для гри. Деталі та демо з’являться після готовності.</p></div>
               <span class="lock">◆</span>
             </div>
             <div class="private-item">
               <span class="private-index">02</span>
-              <div><h3>Private Tools Lab</h3><p>Набір інструментів у розробці — тестую підхід і збираю робочий пайплайн.</p></div>
+              <div><h3 data-i18n="private.two.title">Private Tools Lab</h3><p data-i18n="private.two.description">Набір інструментів у розробці — тестую підхід і збираю робочий пайплайн.</p></div>
               <span class="lock">◆</span>
             </div>
             <div class="private-item">
               <span class="private-index">03</span>
-              <div><h3>Next Game Project</h3><p>Майбутній командний проєкт. Назва та подробиці поки залишаються за лаштунками.</p></div>
+              <div><h3 data-i18n="private.three.title">Next Game Project</h3><p data-i18n="private.three.description">Майбутній командний проєкт. Назва та подробиці поки залишаються за лаштунками.</p></div>
               <span class="lock">◆</span>
             </div>
           </div>
           <div class="priority-card reveal">
-            <p class="eyebrow">Поточний пріоритет</p>
+            <p class="eyebrow" data-i18n="priority.eyebrow">Поточний пріоритет</p>
             <h3>Dream<br /><em>Job</em></h3>
-            <p>Працюю над командним Unreal Engine-проєктом у складі AvavaTeam.</p>
-            <div class="progress-label"><span>у роботі</span><span>active</span></div>
+            <p data-i18n="priority.description">Працюю над командним Unreal Engine-проєктом у складі AvavaTeam.</p>
+            <div class="progress-label"><span data-i18n="priority.status">у роботі</span><span>active</span></div>
             <div class="progress"><span></span></div>
-            <a class="text-link" href="https://github.com/AvavaTeam/DreamJob" target="_blank" rel="noreferrer">Дивитись репозиторій <span>↗</span></a>
+            <a class="text-link" href="https://github.com/AvavaTeam/DreamJob" target="_blank" rel="noreferrer"><span data-i18n="priority.link">Дивитись репозиторій</span> <span>↗</span></a>
           </div>
         </div>
         <div class="activity reveal">
-          <div class="subheading"><span>Де зараз летять коміти</span><span class="activity-note">оновлено з GitHub</span></div>
+          <div class="subheading"><span data-i18n="activity.title">Де зараз летять коміти</span><span class="activity-note" data-i18n="activity.note">оновлено з GitHub</span></div>
           <a class="activity-item" href="https://github.com/AvavaTeam/DreamJob" target="_blank" rel="noreferrer"><span class="activity-pulse"></span><strong>DreamJob</strong><span>Unreal Engine / AvavaTeam</span><time>активний</time><b>↗</b></a>
           <a class="activity-item" href="https://github.com/SH1ROH1/Camera-System" target="_blank" rel="noreferrer"><span class="activity-pulse"></span><strong>Camera-System</strong><span>C++ / UE5</span><time>активний</time><b>↗</b></a>
           <a class="activity-item" href="https://github.com/SH1ROH1/SH1ROH1.github.io" target="_blank" rel="noreferrer"><span class="activity-pulse"></span><strong>SH1ROH1.github.io</strong><span>Web / portfolio</span><time>активний</time><b>↗</b></a>
         </div>
         <div class="team-card reveal">
-          <div><p class="eyebrow">03 / командна робота</p><h3>Avava<br /><em>Team.</em></h3></div>
-          <div class="team-copy"><p>Учасник команди AvavaTeam. Працюю над приватним Unreal Engine-репозиторієм DreamJob разом з іншими розробниками.</p><a class="text-link" href="https://github.com/AvavaTeam/DreamJob" target="_blank" rel="noreferrer">Відкрити DreamJob <span>↗</span></a></div>
+          <div><p class="eyebrow" data-i18n="team.eyebrow">03 / командна робота</p><h3>Avava<br /><em>Team.</em></h3></div>
+          <div class="team-copy"><p data-i18n="team.description">Учасник команди AvavaTeam. Працюю над приватним Unreal Engine-репозиторієм DreamJob разом з іншими розробниками.</p><a class="text-link" href="https://github.com/AvavaTeam/DreamJob" target="_blank" rel="noreferrer"><span data-i18n="team.link">Відкрити DreamJob</span> <span>↗</span></a></div>
           <div class="team-mark">+</div>
         </div>
       </section>
 
       <section class="about shell" id="about">
         <div class="about-card reveal">
-          <p class="eyebrow">04 / трохи контексту</p>
-          <h2>Код — це спосіб<br /><em>розкласти ідею.</em></h2>
-          <p>Мені подобається розбирати складні задачі на прості модулі: щоб їх можна було зрозуміти, підключити до нового проєкту й розвивати далі.</p>
-          <a class="text-link" href="https://github.com/SH1ROH1" target="_blank" rel="noreferrer">Відкрити профіль GitHub <span>↗</span></a>
+          <p class="eyebrow" data-i18n="about.eyebrow">04 / трохи контексту</p>
+          <h2 data-i18n-html="about.title">Код — це спосіб<br /><em>розкласти ідею.</em></h2>
+          <p data-i18n="about.description">Мені подобається розбирати складні задачі на прості модулі: щоб їх можна було зрозуміти, підключити до нового проєкту й розвивати далі.</p>
+          <a class="text-link" href="https://github.com/SH1ROH1" target="_blank" rel="noreferrer"><span data-i18n="about.link">Відкрити профіль GitHub</span> <span>↗</span></a>
         </div>
         <div class="about-details reveal">
-          <div class="detail-row"><span>Фокус</span><strong>Gameplay systems<br />& tools</strong></div>
-          <div class="detail-row"><span>Основний стек</span><strong>C++ / Unreal Engine 5</strong></div>
-          <div class="detail-row"><span>Зараз</span><strong>Навчаюсь та<br />створюю нове</strong></div>
+          <div class="detail-row"><span data-i18n="details.focus">Фокус</span><strong>Gameplay systems<br />& tools</strong></div>
+          <div class="detail-row"><span data-i18n="details.stack">Основний стек</span><strong>C++ / Unreal Engine 5</strong></div>
+          <div class="detail-row"><span data-i18n="details.now">Зараз</span><strong data-i18n-html="details.nowValue">Навчаюсь та<br />створюю нове</strong></div>
           <div class="detail-symbol" aria-hidden="true">✦</div>
         </div>
       </section>
@@ -149,8 +156,8 @@
 
     <footer class="site-footer shell">
       <span>© 2025 SH1ROH1</span>
-      <span>зроблено з цікавістю до систем <span class="footer-heart">✦</span></span>
-      <a href="#top">Вгору ↑</a>
+      <span data-i18n-html="footer.made">зроблено з цікавістю до систем <span class="footer-heart">✦</span></span>
+      <a href="#top" data-i18n="footer.top">Вгору ↑</a>
     </footer>
 
     <script src="script.js"></script>
