@@ -98,7 +98,7 @@ const projectCopy = {
 
 const translations = {
   uk: {
-    "nav.systems": "Системи", "nav.now": "Зараз", "nav.about": "Про мене",
+    "nav.systems": "Системи", "nav.now": "Зараз", "nav.about": "Про мене", "nav.profiles": "Профілі",
     "hero.eyebrow": "розробляю, тестую, вдосконалюю", "hero.title": "Системи, які<br /><em>працюють.</em>",
     "hero.description": "Я Arkadii — студент і C++ розробник, який створює модульні інструменти для Unreal Engine, ігор та повсякденних задач.",
     "hero.projects": "Переглянути проєкти", "hero.github": "Мій GitHub",
@@ -115,10 +115,11 @@ const translations = {
     "team.eyebrow": "03 / командна робота", "team.description": "Учасник команди AvavaTeam. Працюю над приватним Unreal Engine-репозиторієм DreamJob разом з іншими розробниками.", "team.link": "Відкрити DreamJob",
     "about.eyebrow": "04 / трохи контексту", "about.title": "Код — це спосіб<br /><em>розкласти ідею.</em>", "about.description": "Мені подобається розбирати складні задачі на прості модулі: щоб їх можна було зрозуміти, підключити до нового проєкту й розвивати далі.", "about.link": "Відкрити профіль GitHub",
     "details.focus": "Фокус", "details.stack": "Основний стек", "details.now": "Зараз", "details.nowValue": "Навчаюсь та<br />створюю нове",
+    "profiles.eyebrow": "05 / де мене знайти", "profiles.title": "Інші профілі", "profiles.description": "Проєкти, ігри та короткі оновлення — у різних місцях, але під одним ім’ям.", "profiles.games": "ігри та прототипи", "profiles.steam": "ігровий профіль",
     "footer.made": "зроблено з цікавістю до систем <span class=\"footer-heart\">✦</span>", "footer.top": "Вгору ↑",
   },
   en: {
-    "nav.systems": "Systems", "nav.now": "Now", "nav.about": "About",
+    "nav.systems": "Systems", "nav.now": "Now", "nav.about": "About", "nav.profiles": "Profiles",
     "hero.eyebrow": "building, testing, improving", "hero.title": "Systems that<br /><em>work.</em>",
     "hero.description": "I’m Arkadii — a student and C++ developer building modular tools for Unreal Engine, games, and everyday problems.",
     "hero.projects": "Explore projects", "hero.github": "My GitHub",
@@ -135,10 +136,11 @@ const translations = {
     "team.eyebrow": "03 / team work", "team.description": "A member of AvavaTeam. Working with other developers on the private Unreal Engine repository DreamJob.", "team.link": "Open DreamJob",
     "about.eyebrow": "04 / a little context", "about.title": "Code is a way<br /><em>to shape an idea.</em>", "about.description": "I like breaking complex tasks into simple modules that are easy to understand, plug into a new project, and keep improving.", "about.link": "Open GitHub profile",
     "details.focus": "Focus", "details.stack": "Main stack", "details.now": "Now", "details.nowValue": "Learning and<br />building new things",
+    "profiles.eyebrow": "05 / find me online", "profiles.title": "Other profiles", "profiles.description": "Projects, games, and small updates — spread across different places under one name.", "profiles.games": "games & prototypes", "profiles.steam": "gaming profile",
     "footer.made": "made with curiosity for systems <span class=\"footer-heart\">✦</span>", "footer.top": "Back to top ↑",
   },
   ru: {
-    "nav.systems": "Системы", "nav.now": "Сейчас", "nav.about": "Обо мне",
+    "nav.systems": "Системы", "nav.now": "Сейчас", "nav.about": "Обо мне", "nav.profiles": "Профили",
     "hero.eyebrow": "разрабатываю, тестирую, улучшаю", "hero.title": "Системы, которые<br /><em>работают.</em>",
     "hero.description": "Я Arkadii — студент и C++ разработчик, создающий модульные инструменты для Unreal Engine, игр и повседневных задач.",
     "hero.projects": "Посмотреть проекты", "hero.github": "Мой GitHub",
@@ -155,6 +157,7 @@ const translations = {
     "team.eyebrow": "03 / командная работа", "team.description": "Участник команды AvavaTeam. Работаю с другими разработчиками над приватным Unreal Engine-репозиторием DreamJob.", "team.link": "Открыть DreamJob",
     "about.eyebrow": "04 / немного контекста", "about.title": "Код — это способ<br /><em>разложить идею.</em>", "about.description": "Мне нравится разбивать сложные задачи на простые модули, которые легко понять, подключить к новому проекту и развивать дальше.", "about.link": "Открыть профиль GitHub",
     "details.focus": "Фокус", "details.stack": "Основной стек", "details.now": "Сейчас", "details.nowValue": "Учусь и<br />создаю новое",
+    "profiles.eyebrow": "05 / где меня найти", "profiles.title": "Другие профили", "profiles.description": "Проекты, игры и короткие обновления — в разных местах, но под одним именем.", "profiles.games": "игры и прототипы", "profiles.steam": "игровой профиль",
     "footer.made": "сделано с интересом к системам <span class=\"footer-heart\">✦</span>", "footer.top": "Наверх ↑",
   },
 };
